@@ -474,7 +474,7 @@ class Query
                     $where .= '`' . $column . '` = "' . esc_sql($value) . '" OR ';
                 }
 
-                $where = substr($where, 0, -5) . ')';
+                $where = substr($where, 0, -4) . ')';
             }
 
             // where_all
