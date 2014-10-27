@@ -142,7 +142,10 @@ abstract class BaseModel implements ModelInterface
             $wpdb->update(static::get_table(), $props, array(static::get_primary_key() => $this->{static::get_primary_key()}));
         }
 
-        return $this->id;
+//        return $this->id;
+
+        $key_name = $this->get_primary_key();
+        return $this->$key_name;
     }
 
     /**
