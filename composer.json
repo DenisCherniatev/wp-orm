@@ -1,6 +1,7 @@
 {
     "name": "DenisCherniatev/wp-orm",
     "description": "WordPress ORM",
+    "keywords": ["wordpress", "plugin", "orm", "wp-orm", "sql"],
     "license": "MIT",
     "authors": [
         {
