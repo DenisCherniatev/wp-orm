@@ -1,16 +1,23 @@
 {
-    "name": "brandonwamboldt/wp-orm",
+    "name": "DenisCherniatev/wp-orm",
     "description": "WordPress ORM",
     "license": "MIT",
     "authors": [
         {
             "name": "Brandon Wamboldt",
             "email": "brandon.wamboldt@gmail.com"
+        },
+        {
+            "name": "Denis Cherniatev",
+            "email": "denis.cherniatev@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3"
     },
+    "require-dev" : {
+        "brandonwamboldt/wp-orm": "dev-master"
+    },    
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
