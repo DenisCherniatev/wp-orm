@@ -12,8 +12,14 @@
             "email": "denis.cherniatev@gmail.com"
         }
     ],
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/DenisCherniatev/wp-orm"  
+        }  
+    ],     
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
     },
     "require-dev" : {
         "brandonwamboldt/wp-orm": "dev-master"
